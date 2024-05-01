@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <style>
+        body {
+      font-family: "YuMincho", sans-serif;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+  </style>
+  <body>
+    <nav class="bg-yellow-300 flex justify-between p-2">
+      SHIMESU
+      <i class="fa-solid fa-bars" style="color: #c91818"></i>
+    </nav>
+    <main>
+      <div class="mt-5 relative mx-auto md:w-11/12 flex justify-center ">
+        <img  class="w-11/12 object-cover rounded-lg brightness-50 h-[90vh]" src="./images/second.png" alt="" />
+      </div>
+      <div class="absolute    text-white top-14 p-5 sm:p-14 sm:top-5 left-4  md:px-20 lg:px-36 lg:py-24">
+        <h1 class="w-[220px] md:w-[450px] text-[35px] " >Register for training</h1>
+        <p class="max-w-[400px] mt-6">Take the next step towards reducing your carbon footprint and increasing sustainability.</p>
+      </div>
+      <div class="bg-white absolute border-[1px] border-black w-10/12 md:w-9/12 mx-auto py-7 scale-105 top-[65%] sm:top-[60%]  left-[8%] md:left-[12.5%]">
+        <h1 class="text-[25px] font-bold text-center ">
+          Get in Touch
+        </h1>
+        <p class="text-center">Please fill out the form below to register.</p>
+        <div class="flex justify-between gap-2 p-2 sm:px-6">
+          <div class="flex flex-col w-2/5">
+            <label >First Name</label>
+            <input
+              class="border-[1px] border-black outline-none p-[6px] text-sm"
+              type="text"
+            />
+          </div>
+          <div class="flex flex-col w-2/5">
+            <label >Last Name</label>
+            <input
+              class="border-[1px] border-black outline-none p-[6px] text-sm"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col p-2 sm:px-6">
+          <label class="">Job Function</label>
+          <input
+            class="border-[1px] border-black outline-none p-[6px] text-sm"
+            type="text"
+          />
+        </div>
+        <div class="flex flex-col p-2 sm:px-6">
+          <label class="">Company Name</label>
+          <input
+            class="border-[1px] border-black outline-none p-[6px] text-sm"
+            type="text"
+          />
+        </div>
+        <div class="flex flex-col p-2 sm:px-6">
+          <label>Address</label>
+          <input
+            class="border-[1px] border-black outline-none p-[6px] text-sm"
+            type="text"
+          />
+        </div>
+        <div class="flex justify-between gap-2 p-2 sm:px-6">
+          <div class="flex flex-col w-2/5">
+            <label >City</label>
+            <input
+              class="border-[1px] border-black outline-none p-[6px] text-sm"
+              type="text"
+            />
+          </div>
+          <div class="flex flex-col w-2/5">
+            <label >Postcode</label>
+            <input
+              class="border-[1px] border-black outline-none p-[6px] text-sm"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="flex justify-between gap-2 p-2 sm:px-6">
+          <div class="flex flex-col w-2/5">
+            <label >Email</label>
+            <input
+              class="border-[1px] border-black outline-none p-[6px] text-sm"
+              type="text"
+            />
+          </div>
+          <div class="flex flex-col w-2/5">
+            <label class="whitespace-nowrap" >Phone No</label>
+            <input
+              class="border-[1px] border-black outline-none p-[6px] text-sm"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col p-2 sm:px-6">
+          <label>VAT</label>
+          <input
+            class="border-[1px] border-black outline-none p-[6px] text-sm"
+            type="text"
+          />
+        </div>
+        <div class="flex justify-center gap-2 items-center mt-3">
+          <input type="checkbox" class="h-5 w-5" />
+          <span class="">I agree to the Terms</span>
+        </div>
+        <div class="flex justify-center">
+          <button
+            class="py-[10px] bg-[#E51E32] rounded-lg text-black text-xs px-10 mt-5"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+      <section class="mt-[670px] sm:mt-[650px] md:mt-[625px] w-11/12 mx-auto lg:flex justify-around">
+        <div>
+          <h1 class="text-[25px] font-bold text-center   ">
+            Stay Updated with Our Newsletter
+          </h1>
+          <p class=" text-center my-5 ">Sign up to receive updates of future trainings and events</p>
+        </div>
+        <div>
+          <div class="flex items-center justify-center gap-5">
+            <input
+              class="border-[1px] w-full max-w-[350px] border-black outline-none p-[6px] text-sm"
+              type="text"
+              placeholder="Your Email Address"
+            />
+            <button
+            class="py-[10px] whitespace-nowrap bg-[#E51E32] rounded-lg text-black text-xs px-6 "
+          >
+            Subscribe Now
+          </button>
+         
+          </div>
+          <p class="text-center my-5">By Subscribing, you agree to our Terms and Conditions</p>
+        </div>
+      </section>
+      <div
+      class="flex gap-10 justify-center font-bold mt-16 py-10 border-black w-11/12 mx-auto border-b-[1px]"
+    >
+      <p>About</p>
+      <p>Trainings</p>
+      <p>Contact</p>
+    </div>
+      <footer class="flex flex-col justify-center w-full mt-5 mb-10 w-11/12 mx-auto items-center   lg:flex-row justify-between lg:px-14">
+        <p class="text-center">© 2024 Shimesu. All rights reserved.</p>
+        <div
+          class="flex flex-wrap gap-10 justify-center font-bold py-5 w-11/12 lg:w-auto mx-auto"
+        >
+          <p class="underline">Imprint</p>
+          <p class="underline">Privacy Policy</p>
+          <p class="underline">Terms of Use</p>
+          <p class="underline">Cookie Settings</p>
+        </div>
+        <div class="flex gap-5 justify-center my-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 448 512"
+            height="22"
+            width="22"
+          >
+            <path
+              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5c0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7c-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5c67.2 0 79.7 44.3 79.7 101.9V416z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 448 512"
+          height="22"
+          width="22"
+        >
+          <path
+            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5c0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7c-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5c67.2 0 79.7 44.3 79.7 101.9V416z"
+            fill="currentColor"
+          ></path>
+        </svg>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
