@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      font-family: "YuMincho", sans-serif;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+  </style>
+  <body>
+    <main>
+      <section class="relative">
+        <div class="mt-5 flex mx-auto w-full justify-around md:w-11/12">
+          <img
+            class="w-11/12 object-cover rounded-lg brightness-50 h-[450px] md:h-[500px]"
+            src="/images/first.png"
+          />
+        </div>
+
+        <div
+          class="absolute text-white left-4 top-10 p-5 w-11/12 sm:p-14 md:px-20 lg:px-36 lg:py-10"
+        >
+          <h1 class="text-[35px] md:text-[40px] lg:text-[45px] max-w-[450px]">
+            Sustainable Business Practices: <br />
+            Key Stragies
+          </h1>
+          <p class="my-4">
+            Discover the best practices for building a sustainable business.
+          </p>
+          <div class="flex items-center gap-2 mt-5">
+            <button class="p-4 text-sm py-2 rounded-lg bg-white text-black">
+              Register Now
+            </button>
+            <button
+              class="p-4 border-white text-white border-[1px] text-sm py-2 rounded-lg bg-transparent text-black"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </section>
+      <section
+        class="mt-16 flex md:w-11/12 md:ml-[38px] lg:ml-[42px] xl:ml-[55px]"
+      >
+        <div
+          class="px-4 sm:px-7 flex flex-col md:flex-row gap-5 md:gap-20 md:px-9 lg:px-12 lg:ml-2"
+        >
+          <span class="flex items-center gap-2 font-bold">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 512 512"
+              height="30"
+            >
+              <path
+                d="M480 128a64 64 0 0 0-64-64h-16V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 0 0 368 48v16H144V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 0 0 112 48v16H96a64 64 0 0 0-64 64v12a4 4 0 0 0 4 4h440a4 4 0 0 0 4-4z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M32 416a64 64 0 0 0 64 64h320a64 64 0 0 0 64-64V179a3 3 0 0 0-3-3H35a3 3 0 0 0-3 3zm344-208a24 24 0 1 1-24 24a24 24 0 0 1 24-24zm0 80a24 24 0 1 1-24 24a24 24 0 0 1 24-24zm-80-80a24 24 0 1 1-24 24a24 24 0 0 1 24-24zm0 80a24 24 0 1 1-24 24a24 24 0 0 1 24-24zm0 80a24 24 0 1 1-24 24a24 24 0 0 1 24-24zm-80-80a24 24 0 1 1-24 24a24 24 0 0 1 24-24zm0 80a24 24 0 1 1-24 24a24 24 0 0 1 24-24zm-80-80a24 24 0 1 1-24 24a24 24 0 0 1 24-24zm0 80a24 24 0 1 1-24 24a24 24 0 0 1 24-24z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <p>Date</p></span
+          >
+          <span class="flex items-center gap-2 font-bold">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 24 24"
+              height="30"
+            >
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5a2.5 2.5 0 0 1 0 5z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <p>Location</p></span
+          >
+          <span class="flex items-center gap-2 font-bold">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 1024 1024"
+              height="30"
+            >
+              <path
+                d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448s448-200.6 448-448S759.4 64 512 64zm176.5 585.7l-28.6 39a7.99 7.99 0 0 1-11.2 1.7L483.3 569.8a7.92 7.92 0 0 1-3.3-6.5V288c0-4.4 3.6-8 8-8h48.1c4.4 0 8 3.6 8 8v247.5l142.6 103.1c3.6 2.5 4.4 7.5 1.8 11.1z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <p>Time</p></span
+          >
+        </div>
+      </section>
+      <hr class="bg-black h-[2px] my-10 mx-auto w-11/12 sm:w-10/12" />
+      <section
+        class="mt-16 flex flex-col md:flex-row md:justify-start md:items-start md:w-11/12 md:ml-[38px] lg:ml-[42px] xl:ml-[55px]"
+      >
+        <div class="px-4 md:px-9 lg:px-12 lg:ml-2 md:w-9/12">
+          <h1 class="text-[30px] my-5 font-bold">Overview</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+            dolores quos culpa quisquam, nostrum, dolor porro at illo
+            repellendus delectus aliquid corporis iure. Laboriosam voluptatibus
+            rerum ipsam nemo. Est quae pariatur laudantium, minus quo officia
+            quia itaque non a ut?
+          </p>
+          <p class="mt-5">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+            dolores quos culpa quisquam, nostrum, dolor porro at illo
+            repellendus delectus aliquid corporis iure. Laboriosam voluptatibus
+            rerum ipsam nemo. Est quae pariatur laudantium, minus quo officia
+            quia itaque non a ut?
+          </p>
+          <img class="w-[300px] mt-10" src="images/first.png" alt="" />
+          <p class="border-l-[2px] border-black px-2 my-4">
+            Image caption goes here
+          </p>
+          <h2 class="font-semibold text-lg mt-10 my-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+            facilis illum voluptates qui facere ducimus est recusandae
+            architecto quisquam ipsa asperiores, veniam minima, neque totam!
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            atque, quod corporis repudiandae nulla repellat tempora quaerat
+            expedita ipsam rem sit, dicta impedit! Dolores rerum quas iusto
+            beatae, distinctio molestias nemo laudantium tempora eveniet
+            placeat, ipsum veritatis minus! Nostrum deserunt nisi repudiandae
+            veritatis possimus tenetur velit, consectetur aliquid adipisci
+            debitis!
+          </p>
+          <p class="mt-5">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro quod
+            obcaecati sit. Porro voluptates, velit, inventore debitis maiores
+            ipsam provident doloribus officiis adipisci vel nisi. Maxime soluta
+            nostrum illo iste quod sequi explicabo deleniti, illum aperiam,
+            doloribus culpa magnam perferendis.
+          </p>
+          <h1 class="text-[25px] font-bold mt-10 mb-5">Conclusion</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque non
+            dolores ipsum perspiciatis rerum totam, repudiandae maiores ad!
+            Numquam quibusdam nemo consequatur, ad suscipit iure!
+          </p>
+          <p class="my-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque non
+            dolores ipsum perspiciatis rerum totam, repudiandae maiores ad!
+            Numquam quibusdam nemo consequatur, ad suscipit iure!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+            excepturi, quam quo odit at reiciendis omnis inventore eaque vero
+            minima blanditiis dicta amet, eum delectus cumque ipsa. Ipsum
+            quisquam pariatur perferendis, temporibus tenetur consequatur et.
+          </p>
+        </div>
+        <div class="flex justify-start px-4 md:px-9 lg:px-12 mt-10 md:mt-5   lg:ml-2">
+            <div class=" border-[1px] border-black max-w-[300px] p-5">
+        <h1 class="text-[25px] font-bold  mb-5">Register</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+          doloribus animi soluta laudantium?
+        </p>
+        <button class="bg-[#B71228] mt-5 py-[6px] text-sm px-10 text-black rounded-lg">Register Now</button>
+      </div>
+       </div>
+
+      </section>
+      <hr class="bg-black h-[2px] my-10 mx-auto w-11/12 sm:w-10/12" />
+      <section class="mt-5  mx-auto  md:w-11/12 md:ml-[38px] lg:ml-[42px] xl:ml-[55px]   ">
+        <div class=" flex justify-center md:items-start  flex-col items-center px-2 md:ml-[38px] lg:ml-[42px] xl:ml-[55px]">
+          <h1 class=" text-[30px] my-5 font-bold">Discover More</h1>
+        <p class="text-center">Discover the wide range of training areas we offer</p>
+        </div>
+        <div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-3 place-items-center">
+          <article class="w-[270px] xl:w-[300px] mt-5">
+            <img class="h-[250px]" src="/images/first.png" alt="">
+            <h1 class=" font-semibold text-lg my-3">Sustainability Training</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed libero dolorum fugit labore, blanditiis aliquid.</p>
+          </article>
+          <article class="w-[270px] xl:w-[300px] mt-5">
+            <img class="h-[250px]" src="/images/first.png" alt="">
+            <h1 class=" font-semibold text-lg my-3">Technology Training</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed libero dolorum fugit labore, blanditiis aliquid.</p>
+          </article>
+          <article class="w-[270px] xl:w-[300px] mt-5">
+            <img class="h-[250px]" src="/images/first.png" alt="">
+            <h1 class=" font-semibold text-lg my-3">Environment Training</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed libero dolorum fugit labore, blanditiis aliquid.</p>
+          </article>
+          <article class="w-[270px] xl:w-[300px] mt-5">
+            <img class="h-[250px]" src="/images/first.png" alt="">
+            <h1 class=" font-semibold text-lg my-3">Quality Training</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed libero dolorum fugit labore, blanditiis aliquid.</p>
+          </article>
+          <article class="w-[270px] xl:w-[300px] mt-5">
+            <img class="h-[250px]" src="/images/first.png" alt="">
+            <h1 class=" font-semibold text-lg my-3">Safety Training</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed libero dolorum fugit labore, blanditiis aliquid.</p>
+          </article>
+        </div>
+      </section>
+      <hr class="bg-black h-[2px] my-10 mx-auto w-11/12 sm:w-10/12" />
+      <section class="w-11/12 relative mx-auto my-10 border-black">
+        <div class="flex flex-col justify-center items-center">
+          <p class="text-center max-w-[300px] font-semibold">
+            The training program was a game-changer for our company. It helped us
+            reduce our CO2 emissions by 30%.
+          </p>
+          <img
+            src="./images/profile.png"
+            class="h-16 mt-5 w-16 rounded-full"
+            alt=""
+          />
+          <h1 class="font-bold my-1">John Doe</h1>
+          <p class="mb-5">CEO, ABC Company</p>
+        </div>
+  
+        <div
+          class="flex absolute w-11/12 justify-center ml-4 top-16 justify-between items-center mt-4 md:ml-[38px] lg:ml-[42px] xl:ml-[55px]"
+        >
+          <div class="border-[1px] border-red-500 p-1 rounded-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-gray-600 cursor-pointer text-red-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </div>
+          <div class="border-[1px] border-red-500 p-1 rounded-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-gray-600 cursor-pointer text-red-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class=" w-11/12 mx-auto lg:flex justify-between lg:px-12">
+        <div>
+          <h1 class="text-[25px] font-bold text-center   ">
+            Stay Updated with Our Newsletter
+          </h1>
+          <p class=" text-center my-5 lg:pl-2 ">Sign up to receive updates of future trainings and events</p>
+        </div>
+        <div>
+          <div class="flex items-center justify-center gap-5">
+            <input
+              class="border-[1px] w-full max-w-[350px] border-black outline-none p-[6px] text-sm"
+              type="text"
+              placeholder="Your Email Address"
+            />
+            <button
+            class="py-[10px] whitespace-nowrap bg-[#E51E32] rounded-lg text-black text-xs px-6 "
+          >
+            Subscribe Now
+          </button>
+         
+          </div>
+          <p class="text-center my-5">By Subscribing, you agree to our Terms and Conditions</p>
+        </div>
+      </section>
+      <div
+      class="flex gap-10 justify-center font-bold py-5  w-11/12 mt-10 mx-auto "
+    >
+      <p>About</p>
+      <p>Trainings</p>
+      <p>Contact</p>
+    </div>
+    <hr class="bg-black h-[2px] my-10 mx-auto w-11/12 sm:w-10/12 "/>
+    <footer
+      class="flex flex-col justify-center w-full mt-5 mb-10 w-11/12 mx-auto items-center lg:flex-row justify-between lg:px-24"
+    >
+      <p class="text-center">© 2024 Shimesu. All rights reserved.</p>
+      <div
+        class="flex flex-wrap gap-10 justify-center font-bold py-5 w-11/12 mx-auto"
+      >
+        <p class="underline">Imprint</p>
+        <p class="underline">Privacy Policy</p>
+        <p class="underline">Terms of Use</p>
+        <p class="underline">Cookie Settings</p>
+      </div>
+      <div class="flex gap-5 justify-center my-5">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 448 512"
+          height="22"
+          width="22"
+        >
+          <path
+            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5c0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7c-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5c67.2 0 79.7 44.3 79.7 101.9V416z"
+            fill="currentColor"
+          ></path>
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 448 512"
+          height="22"
+          width="22"
+        >
+          <path
+            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5c0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7c-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5c67.2 0 79.7 44.3 79.7 101.9V416z"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+    </footer>
+    </main>
+  </body>
+</html>
