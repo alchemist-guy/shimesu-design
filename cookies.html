@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      font-family: "YuMincho", sans-serif;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+  </style>
+  <body>
+    <div class="flex justify-start px-4 md:px-9 lg:px-12 mt-10 md:mt-5 lg:ml-2">
+      <div
+        class="border-[1px] border-black w-full flex flex-col justify-center items-center p-5 text-center"
+      >
+        <h1 class="text-[25px] font-bold mb-5">
+          We believe your data is your property and support your right to
+          privacy and Transparency
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non doloribus
+          animi soluta laudantium?
+        </p>
+        <div class="flex gap-2 flex-wrap justify-center">
+          <button
+            class="bg-[#E51E32] text-white mt-5 py-[6px] text-sm px-3 text-black rounded-lg"
+          >
+            Regect All
+          </button>
+          <button
+            class="text-black border-[1px] border-red-500 mt-5 py-[6px] text-sm px-3 text-black rounded-lg"
+          >
+            Accept Some
+          </button>
+          <button
+            class="text-black mt-5 py-[6px] border-[1px] border-red-500 text-sm px-3 text-black rounded-lg"
+          >
+            Accept All
+          </button>
+          <button
+            class="text-black mt-5 flex items-center gap-2 py-[6px] border-[1px] border-red-500 text-sm px-3 text-black rounded-lg"
+          >
+            Accept All
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 24 24"
+              height="15"
+              class="-rotate-90"
+            >
+              <path
+                d="M17.51 3.87L15.73 2.1L5.84 12l9.9 9.9l1.77-1.77L9.38 12l8.13-8.13z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <p class="max-w-[900px] mt-5">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+          incidunt, aliquam architecto soluta hic eos obcaecati dicta,
+          asperiores dolorum cumque reprehenderit magnam omnis quasi repellat!
+          Eligendi provident repudiandae nesciunt porro.
+        </p>
+      <div class=" flex flex-col gap-5 sm:flex-row justify-between items-center w-full mt-5 flex-wrap">
+        <div>
+            <label
+              for="toggleTwo"
+              class="flex items-center cursor-pointer select-none text-dark dark:text-white"
+            >
+              <div class="relative">
+                <div class="flex items-center gap-2">
+                  <input type="checkbox" id="toggleTwo" class="peer sr-only" />
+                  <div
+                    class="block h-6 rounded-full dark:bg-dark-2 bg-gray-300 w-10"
+                  ></div>
+                  <div
+                    class="absolute w-4 h-4 transition bg-white rounded-full dot dark:bg-dark-4 left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"
+                  ></div>
+                  Customize
+                </div>
+              </div>
+            </label>
+          </div>
+          <button
+            class="bg-[#1C1D20] text-white rounded-lg text-sm p-[10px] px-5"
+          >
+            Save my Preferences
+          </button>
+          <p>Privacy Policy</p>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
